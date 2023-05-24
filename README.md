@@ -41,6 +41,9 @@ Lucas Goncalves, Seong-Gyun Leem, Wei-Cheng Lin, Berrak Sisman, and Carlos Busso
 2. [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
 
 ### Features
+* Download pre-trained EfficientNet B2 (enet_b2_8_best.pt) model from [here](https://drive.google.com/file/d/1MVaJ9llhUckZlbRGGD7plw6GBZqrqFPQ/view?usp=sharing). After downloading save model under `/facial_features/model/enet_b2_8_best.pt`
+* Download pre-trained wav2vec model from [here](https://drive.google.com/file/d/1xzxFcXuj8-xMWN9yE-4jgIeFoSdMvO5S/view?usp=sharing). After downloading save model under `VAVL/wav2vec/final_wav2vec.pt`
+* Update your data paths in `audio_extraction/audio_extractor.py` and in `facial_features/face_extractor.py`
 * Run the script `bash audio_and_visual_prep.sh` 
 * This script extracts audios from videos and convert audios to 16Hz and mono-channel using code in ``audio_extraction``
 * This script also extract faces from videos, align the faces, and extract features to be used for training/inference. It uses code in ``facial_features``

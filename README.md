@@ -6,9 +6,10 @@ A challenging task in audiovisual emotion recognition is to implement neural net
 
 ### Paper
 [Access to the paper](https://arxiv.org/pdf/2305.07216.pdf)
+
 Lucas Goncalves, Seong-Gyun Leem, Wei-Cheng Lin, Berrak Sisman, and Carlos Busso "Versatile audiovisual learning for handling single and multi modalities in emotion regression and classification tasks," ArXiv e-prints (arXiv:2305.07216), pp. 1-14, May 2023.
 
-Please cite our paper if you find our work useful for your research:
+#### Please cite our paper if you find our work useful for your research:
 
 ```tex
 @article{Goncalves_2023_2,
@@ -39,6 +40,8 @@ Please cite our paper if you find our work useful for your research:
 1. [CREMA-D](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) 
 2. [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
 
-### Features & Partitions
-*
+### Features
+* Run the script `bash audio_and_visual_prep.sh` 
+* This script extracts audios from videos and convert audios to 16Hz and mono-channel using code in ``audio_extraction``
+* This script also extract faces from videos, align the faces, and extract features to be used for training/inference. It uses code in ``facial_features``
 

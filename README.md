@@ -52,5 +52,5 @@ Lucas Goncalves, Seong-Gyun Leem, Wei-Cheng Lin, Berrak Sisman, and Carlos Busso
 ## Running the model
 * All model files are located in `VAVL`
 * Enter the correct path to the downloaded pre-trained wav2vec model in [line 114 of train.py](https://github.com/ilucasgoncalves/VAVL/blob/main/VAVL/train.py#L114)
-* Update your data and feature paths in `VAVL/utilsetc.py` [here](https://github.com/ilucasgoncalves/VAVL/blob/main/VAVL/utils/etc.py)
+* Update your data and feature paths in `VAVL/utils/etc.py` [here](https://github.com/ilucasgoncalves/VAVL/blob/main/VAVL/utils/etc.py)
 

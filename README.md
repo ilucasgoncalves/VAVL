@@ -56,5 +56,5 @@ Lucas Goncalves, Seong-Gyun Leem, Wei-Cheng Lin, Berrak Sisman, and Carlos Busso
 * Model can be run using sample run files `run_cremad.sh` for CREMA-D or `run_mspimprov.sh` for MSP-IMPROV.
 
 <p align="center">
-  <img src="./images/vavl.png" />
+  <img src="./images/vavl.PNG" />
 </p>

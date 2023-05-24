@@ -111,7 +111,7 @@ def main(args):
     modelWrapper = net.ModelWrapper(args) # Change this to use custom model
     modelWrapper.init_model()
     modelWrapper.init_optimizer()
-    modelWrapper.load_model("/media/lucas/08AE364B3D909CD8/ICMI_2023/Github_Code/VAVL/wav2vec2", 'train')
+    modelWrapper.load_model("/path_to_pretrained/wav2vec2", 'train')
 
     
     # Initialize loss function

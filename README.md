@@ -55,3 +55,6 @@ Lucas Goncalves, Seong-Gyun Leem, Wei-Cheng Lin, Berrak Sisman, and Carlos Busso
 * Update your data and feature paths in `VAVL/utils/etc.py` [here](https://github.com/ilucasgoncalves/VAVL/blob/main/VAVL/utils/etc.py)
 * Model can be run using sample run files `run_cremad.sh` for CREMA-D or `run_mspimprov.sh` for MSP-IMPROV.
 
+<p align="center">
+  <img src="./images/vavl.png" />
+</p>

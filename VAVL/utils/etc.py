@@ -22,14 +22,14 @@ def print_config_description(conf_path):
         
 
 def load_audio_and_label_file_paths(args):
-    audio_path = '/media/lucas/08AE364B3D909CD8/ICMI_2023/data/' + args.corpus + '/Audios'
-    video_path = '/media/lucas/08AE364B3D909CD8/ICMI_2023/data/' + args.corpus + '/Face_features'
+    audio_path = 'path_to_dir/data/' + args.corpus + '/Audios'
+    video_path = 'path_to_dir/data/' + args.corpus + '/Face_features'
     if args.corpus == 'MSP-IMPROV':
         if args.data_mode == 'primary':
             if args.num_classes == 'att':
-                label_path = '/media/lucas/08AE364B3D909CD8/ICMI_2023/data/' + args.corpus + '/Partitioned_data_Primary_Emotion/labels_consensus_EmoP_4class_' + args.label_rule + '/labels_consensus_' + args.partition_number + '.csv'
+                label_path = 'path_to_dir/data/' + args.corpus + '/Partitioned_data_Primary_Emotion/labels_consensus_EmoP_4class_' + args.label_rule + '/labels_consensus_' + args.partition_number + '.csv'
         
     elif args.corpus == 'CREMA-D':
-        label_path = '/media/lucas/08AE364B3D909CD8/ICMI_2023/data/' + args.corpus + '/labels_consensus_6class_' + args.label_rule + '/label_consensus_' + args.partition_number + '.csv'
+        label_path = 'path_to_dir/data/' + args.corpus + '/labels_consensus_6class_' + args.label_rule + '/label_consensus_' + args.partition_number + '.csv'
 
     return audio_path, video_path, label_path

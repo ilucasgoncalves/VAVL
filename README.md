@@ -48,3 +48,8 @@ Lucas Goncalves, Seong-Gyun Leem, Wei-Cheng Lin, Berrak Sisman, and Carlos Busso
 * This script extracts audios from videos and convert audios to 16Hz and mono-channel using code in ``audio_extraction``
 * This script also extract faces from videos, align the faces, and extract features to be used for training/inference. It uses code in ``facial_features``
 
+
+## Running the model
+* All model files are located in `VAVL`
+* Enter the correct path to the downloaded pre-trained wav2vec model in [line 114 of train.py](https://github.com/ilucasgoncalves/VAVL/edit/main/VAVL/train.py#L114)
+
